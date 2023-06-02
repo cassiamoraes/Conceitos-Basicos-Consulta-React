@@ -25,4 +25,4 @@ Testes simples:
 - [x] Manipulação de eventos do campo
 - [x] Inserção de nomes na lista
 
-Obs.: esse documento é para consulta pessoal.
+Obs.: esse documento é para consulta pessoal. O programa passará por melhorias no design posteriormente.

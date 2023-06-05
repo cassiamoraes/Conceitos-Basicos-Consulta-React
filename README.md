@@ -24,5 +24,7 @@ Testes simples:
 - [x] Lista
 - [x] Manipulação de eventos do campo
 - [x] Inserção de nomes na lista
+- [ ] Exclusão de nomes da lista
+- [ ] Criação de filtros
 
 Obs.: esse documento é para consulta pessoal. O programa passará por melhorias posteriormente.

@@ -10,7 +10,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Elementos aninhados
 - [x] Componentes
 - [x] Propriedades (props)
-- [ ] Tipos de propriedades
+- [x] Tipos de propriedades
 - [ ] Métodos lifecycle
 - [ ] Refatorização de componente
 - [ ] Refatorização de elemento

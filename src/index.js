@@ -4,10 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//definição do meu props
+const DADOS = [
+  {id:"nome-0", nome:"Cassia", completed: true},
+  {id: "nome-1", nome:"João", completed: false}
+]
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App nomes={DADOS}/>
   </React.StrictMode>
 );
 

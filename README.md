@@ -24,6 +24,8 @@ Testes simples:
 - [x] Lista
 - [x] Manipulação de eventos do campo
 - [x] Inserção de nomes na lista
+- [x] Concluir tarefa
+- [x] Sincronizar dados com o navegador
 - [ ] Exclusão de nomes da lista
 - [ ] Criação de filtros
 

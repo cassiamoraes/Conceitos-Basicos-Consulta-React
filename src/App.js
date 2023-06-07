@@ -3,6 +3,7 @@ import './App.css';
 import React, { useState } from "react"
 import Campos from './componentes/Campos'
 import Lista from './componentes/Lista'
+import {nanoid} from "nanoid"
 
 //função usada para unir os elementos criados, o app está sendo renderizado no index.js
 function App(props) {
@@ -11,7 +12,7 @@ function App(props) {
 
   //adicionando o nome
   function addTask(nome){
-    const novoNome = {nome}
+    const novoNome = {id:`nome-${nanoid()}`, nome, completed: true}
     setLista([...lista, novoNome])
   }
 

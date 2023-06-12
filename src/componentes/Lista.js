@@ -8,6 +8,7 @@ function Lista(props){
             id={props.id}
             type='checkbox'
             defaultChecked={props.completed}
+            onChange={() => props.alternaNomesCompleted(props.id)}
         />
         <label>
             {props.nome}

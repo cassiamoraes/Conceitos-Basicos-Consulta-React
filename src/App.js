@@ -7,6 +7,16 @@ import {nanoid} from "nanoid"
 
 //função usada para unir os elementos criados, o app está sendo renderizado no index.js
 function App(props) {
+  
+  function alternaNomesCompleted(id){
+    const atualizaNomes = lista.map((nome)=>{
+      if(id === nome.id){
+        return{...nome, completed: !nome.completed}
+      }
+      return nome
+    })
+    setLista(atualizaNomes)
+  }
 
   const [lista, setLista] = useState(props.nomes)
 

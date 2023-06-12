@@ -28,7 +28,10 @@ function App(props) {
 
   const listaNomes = lista.map((nomeObjeto) => (
     <Lista
+      id={nomeObjeto.id}
       nome={nomeObjeto.nome}
+      completed={nomeObjeto.completed}
+      alternaNomesCompleted={alternaNomesCompleted}
       />
   ))
 

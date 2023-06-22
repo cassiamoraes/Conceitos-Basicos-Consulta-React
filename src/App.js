@@ -5,6 +5,7 @@ import Campos from './componentes/Campos'
 import Lista from './componentes/Lista'
 import {nanoid} from "nanoid"
 
+
 //função usada para unir os elementos criados, o app está sendo renderizado no index.js
 function App(props) {
   
